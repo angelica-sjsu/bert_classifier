@@ -4,6 +4,7 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 from tqdm import tqdm
 
+
 # create embeddings
 def sentence_embedder(sentences, dest, phase):
     """
